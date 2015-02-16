@@ -32,7 +32,9 @@ public class TeamDAOImpl implements TeamDAO {
 	}
 
 	public Team getTeam(int id) {
+		
 		Team team = (Team) getCurrentSession().get(Team.class, id);
+		System.out.println("2nd ID="+id);
 		return team;
 	}
 
