@@ -9,15 +9,13 @@ public interface TeamDAO {
 	//first update methods ...
 	//second update...
 	//third update...
-<<<<<<< HEAD
 	//4th update
 	//5th update
-=======
 	
 	//4th update
 	//5th update
 	//6th update
->>>>>>> refs/heads/sumValue
+	//7th update
 	public void addTeam(Team team);
 	public void updateTeam(Team team);
 	public Team getTeam(int id);
