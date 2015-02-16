@@ -6,7 +6,8 @@ import com.sprhib.model.Team;
 
 public interface TeamDAO {
 	
-	//methods
+	//first update methods ...
+	//second update...
 	public void addTeam(Team team);
 	public void updateTeam(Team team);
 	public Team getTeam(int id);
